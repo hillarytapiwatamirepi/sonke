@@ -1,0 +1,35 @@
+.container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sidebar {
+  background-color: #957758;
+  flex: 1;
+  color: white;
+  padding: 16px;
+}
+.bottom-component-flex {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+}
+.requests {
+  flex: 1;
+  background-color: #d6a641;
+}
+.map-and-current-request {
+  flex: 1;
+}
+.checkbox {
+  color: white;
+  padding-left: 24px;
+}
+.sidebar h1 {
+  font-weight: 600;
+}
+
+.sidebar h2 {
+  padding-left: 12px;
+}

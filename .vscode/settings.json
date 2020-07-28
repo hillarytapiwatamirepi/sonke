@@ -3,5 +3,8 @@
     "**/node_modules": true,
     "**/bower_components": true,
     "**/.sfdx": true
-  }
+  },
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "off",
+  "debug.allowBreakpointsEverywhere": true
 }

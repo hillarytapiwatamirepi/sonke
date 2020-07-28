@@ -1,0 +1,23 @@
+<template>
+  <div class="container-flex">
+    <c-navbar></c-navbar>
+
+    <div class="bottom-component-flex">
+      <div class="sidebar">
+        <h1>FILTER BY</h1>
+        <H2>Category</H2>
+        <lightning-checkbox-group
+          class="checkbox"
+          name="Checkbox Group"
+          label="Checkbox Group"
+          options={options}
+          value={value}
+          onchange={handleChange}
+        ></lightning-checkbox-group>
+      </div>
+
+      <div class="requests">requests text</div>
+      <div class="map-and-current-request">right component text</div>
+    </div>
+  </div>
+</template>
