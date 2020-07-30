@@ -4,6 +4,10 @@ export default class CheckboxGroupBasic extends LightningElement {
   value = [0];
   categories = ["Groceries", "Walk a dog", "Health"];
 
+  name = "Hillary Tamirepi";
+  request = "Condo to rent, looking for roommates";
+  price = "$3,000";
+
   sample_request = {
     name: "Brian",
     category: "Health",

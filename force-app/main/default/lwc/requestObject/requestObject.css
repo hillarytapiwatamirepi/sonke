@@ -1,0 +1,41 @@
+.request-object-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #4e321d;
+  border-radius: 4px;
+  color: white;
+  width: 500px;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.icon-container {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.name-request {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.location {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.name-and-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.category-and-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80px;
+}
